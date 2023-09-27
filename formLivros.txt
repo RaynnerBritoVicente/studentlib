@@ -1,0 +1,17 @@
+ISBN (Via API)
+
+Título (via API)
+
+Autor (Input Text)
+
+Editora (Input Text)
+
+Unidades (number)
+
+Generos (Chackbox)
+
+Sinópse (textarea)
+
+Disponibilidade (Radius)
+
+Data de inclusão (Date)

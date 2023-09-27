@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&family=Varela+Round&display=swap');
+
+body{
+    
+}
+
+#corpoLogin{
+    padding: 0 auto;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #129BFC, #115);
+    min-height: 100VH;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loginBox{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 8px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+}
+
+.botao{
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+#entrar{
+    background-color: #129BFC;
+}
+
+#entrar:hover{
+    background-color: white;
+    color: black;
+    transition: .8s;
+}
+
+#limpar:hover{
+    background-color: white;
+    color: black;
+}
+
+#limpar{
+    background-color: #115;
+    transition: .8s;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cabecalho{
+    background-color: #129BFC;
+    width: 100%;
+}
+
+#logo{
+    margin-left: 7rem;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.titulo{
+    padding-top: 24px;
+}
