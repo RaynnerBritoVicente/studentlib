@@ -19,7 +19,7 @@
             </div>
 
             <div id="loginBox" class="col col-md-3 text-center p-3 me-5">
-                <h1>Login do Aluno</h1>
+                <h1>Login do Usuário</h1>
 
                 <form class="col text-center rounded ms-2 me-2 mt-3 mb-3" method="post">
                     <fieldset>
@@ -27,17 +27,19 @@
                         <input class="col-md-1 input-group form-control rounded mb-3" type="text" id="email" name="email" required placeholder="aluno@studlib.com" title="Email para acesso">
     
                         <label class="form-label text-start text-black" for="user">Senha</label>
-                        <input class="col-md-1 input-group form-control rounded mb-3" type="password" id="senha" name="senha" required placeholder="Senha" title="Senha para acesso" minlength="8">
+                        <input class="col-md-1 input-group form-control rounded mb-3" type="password" id="senha" name="senha" required placeholder="Senha" title="Senha para acesso">
                     </fieldset>
                 </form>
 
-                <input type="submit" value="Entrar" id="entrar" class="botao" />
+                <input type="submit" value="Entrar" id="entrar" onclick="validaLogin()" class="botao" />
                 <input type="reset" value="Limpar" id="limpar" class="botao" />
 
             </div>
 
         </div>
     </div>
+
+<script src="js/login.js"></script>
 
 </body>
 </html>

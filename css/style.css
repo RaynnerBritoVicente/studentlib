@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&family=Varela+Round&display=swap');
 
-body{
-    
-}
-
 #corpoLogin{
     padding: 0 auto;
     margin: 0 auto;
@@ -12,6 +8,40 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#corpoHome{
+    padding: 0 auto;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #129BFC, #115);
+    min-height: 100VH;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.destacado{
+    background-color: #4287f5;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+.imagens{
+    width: 100px;
+    transition: .8s;
+}
+
+.imagens:hover, a:hover{
+    width: 150px;
+    transition: .8s;
+    font-size: 24px;
+}
+
+
+
+ul{
+    list-style: none;
 }
 
 #loginBox{
@@ -45,6 +75,7 @@ label{
 
 #entrar{
     background-color: #129BFC;
+    transition: .8s;
 }
 
 #entrar:hover{
@@ -56,6 +87,7 @@ label{
 #limpar:hover{
     background-color: white;
     color: black;
+    transition: .8s;
 }
 
 #limpar{
@@ -65,7 +97,10 @@ label{
 
 a{
     text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    transition: .8s;
 }
+
 
 #cabecalho{
     background-color: #129BFC;
