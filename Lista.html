@@ -9,21 +9,36 @@
     <link rel="shortcut icon" href="imgs/icone.ico" type="image/x-icon">
     <title>Student's Lib - Cadastrar um livro</title>
 </head>
-<body>
+<body id="corpoListar"> <!-- Id única para a página de listagem de livros -->
     
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="row justify-content-md-around" id="cabecalho">
+    <div class="container-fluid text-center"> <!-- Container principal da página -->
+        <div class="row"> <!-- Nova linha -->
+            <div class="row justify-content-around " id="cabecalho"> <!-- Cabeçalho da página -->
                 <img src="imgs/book.png" alt="Livro Fechado" width="100" class="m-3 col col-md-1" id="logo">
-                <h1 class="m-3 col col-md-4 titulo"><a href="#" class="text-black">Student's Lib</a></h1>
+                <a class="col col-md-3 text-black" href="home.html"><h1 class="m-3 titulo">Student's Lib</h1></a>
             </div>
 
-            <div>
+            <div class="container-fluid mt-2"> <!-- Segundo container para a tabela -->
+                <div class="row justify-content-center"> <!-- nova linha -->
+                    <div class="col-md-12"> <!-- definindo o tamanho da div para 12 colunas do bootstrap -->
+                        <!-- Coluna do form -->
+                        <div class="cartao p-3"> <!-- cartão acima da tabela -->
+                            <h1 class="text-light">Lista de Livros</h1>
+                        </div>
+                        <hr> <!-- Linha -->
 
+                        <div id="listagem"> <!-- div para a listagem automatica dos livros cadastrados -->
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
+
+    <script src="js/listar.js"></script>
 
 </body>
 </html>

@@ -9,20 +9,20 @@
     <link rel="shortcut icon" href="imgs/icone.ico" type="image/x-icon">
     <title>Student's Lib - Login</title>
 </head>
-<body id="corpoLogin">
+<body id="corpoLogin"> <!-- Corpo com id unica para a página de login -->
     
-    <div class="container-fluid text-center">
-        <div class="row justify-content-around">
+    <div class="container-fluid text-center"> <!-- Container principal da página -->
+        <div class="row justify-content-around"> <!-- Criando uma linha -->
             
-            <div class="col-md-3 ms-5">
-                <img src="imgs/book.gif" class="img-fluid" width="512">
+            <div class="col-md-3 ms-5"><!-- Div para que contém o GIF ao lado do campo de login -->
+                <img src="imgs/book.gif" class="img-fluid" width="512"> <!-- Gif animado -->
             </div>
 
-            <div id="loginBox" class="col col-md-3 text-center p-3 me-5">
-                <h1>Login do Usuário</h1>
+            <div id="loginBox" class="col col-md-3 text-center p-3 me-5"> <!-- Div que contem a caixa de login -->
+                <h1>Login do Usuário</h1> <!-- Título da caixa de login -->
 
-                <form class="col text-center rounded ms-2 me-2 mt-3 mb-3" method="post">
-                    <fieldset>
+                <form class="col text-center rounded ms-2 me-2 mt-3 mb-3" method="post"> <!-- Formulário pedindo email e senha para realizar o login -->
+                    <fieldset> <!-- Delimita a area de login -->
                         <label class="form-label text-start text-black" for="user">Email</label>
                         <input class="col-md-1 input-group form-control rounded mb-3" type="text" id="email" name="email" required placeholder="aluno@studlib.com" title="Email para acesso">
     
@@ -31,15 +31,15 @@
                     </fieldset>
                 </form>
 
-                <input type="submit" value="Entrar" id="entrar" onclick="validaLogin()" class="botao" />
-                <input type="reset" value="Limpar" id="limpar" class="botao" />
+                <input type="submit" value="Entrar" id="entrar" onclick="validaLogin()" class="botao" /> <!-- Botão que realiza o login -->
+                <input type="reset" value="Limpar" id="limpar" class="botao" /> <!-- Botão para limpar as informações -->
 
             </div>
 
         </div>
     </div>
 
-<script src="js/login.js"></script>
+<script src="js/login.js"></script> <!-- Importando o JavaScript para a página de login -->
 
 </body>
 </html>

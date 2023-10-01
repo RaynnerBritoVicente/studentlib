@@ -1,5 +1,7 @@
+/* Importando as fontes do google fonts "Montserrat" e "Varela Round" */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&family=Varela+Round&display=swap');
 
+/* Id para o corpo da página de Login */
 #corpoLogin{
     padding: 0 auto;
     margin: 0 auto;
@@ -10,6 +12,7 @@
     justify-content: center;
 }
 
+/* Id para o corpo da página Home */
 #corpoHome{
     padding: 0 auto;
     margin: 0 auto;
@@ -21,29 +24,46 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.destacado{
-    background-color: #4287f5;
-    border-radius: 24px;
-    border: 1px solid black;
+/* Id para o corpo da pagina de inclusão de livros */
+#corpoIncluir{
+    padding: 0 auto;
+    margin: 0 auto;
+    min-height: 100VH;
+    font-family: "Montserrat", sans-serif;
 }
 
+/* Id para o corpo da pagina de listagem de livros */
+#corpoListar{
+    padding: 0 auto;
+    margin: 0 auto;
+    min-height: 100VH;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* classe "cartao" para mudar a cor de fundo de "cards" */
+.cartao{
+    background-color: #318bcc;
+}
+
+/* Classe para manter as imagens com o tamanho inicial de 100 pixeis */
 .imagens{
     width: 100px;
     transition: .8s;
 }
 
-.imagens:hover, a:hover{
+/* Função hover nas classes 'imagens' e 'linksHome' para que fiquem maiores quando o mouse pairar sobre eles */
+.imagens:hover, a.linksHome:hover{
     width: 150px;
     transition: .8s;
     font-size: 24px;
 }
 
-
-
+/* Removendo o estilo de listagem da tag UL */
 ul{
     list-style: none;
 }
 
+/* Id para o css da caixa de login */
 #loginBox{
     font-family: 'Montserrat', sans-serif;
     align-self: center;
@@ -52,6 +72,7 @@ ul{
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+/* CSS para manter todas as tags 'form' com um padrão */
 form{
     background-color: rgba(255, 255, 255, 0.8);
     align-self: center;
@@ -62,10 +83,12 @@ form{
     margin-bottom: 10px;
 }
 
+/* CSS para manter todas as tags 'label' com o padrão display block */
 label{
     display: block;
 }
 
+/* Classe para todos os inputs que forem um 'botão' */
 .botao{
     border: 1px solid black;
     border-radius: 24px;
@@ -73,48 +96,55 @@ label{
     color: #fff;
 }
 
+/* Id própria para alterações no botão 'entrar' */
 #entrar{
     background-color: #129BFC;
     transition: .8s;
 }
-
+/* Função hover para alterar as cores do botão 'entrar' ao ficar com o cursor sobre ele*/
 #entrar:hover{
     background-color: white;
     color: black;
     transition: .8s;
 }
 
+/* Id própria para alterações no botão 'limpar' */
 #limpar:hover{
     background-color: white;
     color: black;
     transition: .8s;
 }
 
+/* Função hover para alterar as cores do botão 'limpar' ao ficar com o cursor sobre ele*/
 #limpar{
     background-color: #115;
     transition: .8s;
 }
 
+/* Mantem todas as tags 'a' em uma forma padrão sem decorações e com a fonte 'Varela Round' */
 a{
     text-decoration: none;
     font-family: 'Varela Round', sans-serif;
     transition: .8s;
 }
 
-
+/* Id cabecalho para as paginas 'Incluir' e 'Lista' que possuem um cabeçalho no topo da página*/
 #cabecalho{
     background-color: #129BFC;
     width: 100%;
 }
 
+/* Id para manter a logo linhada no cabeçalho "usando unidade 'rem' para ficar responsivo" */
 #logo{
     margin-left: 7rem;
 }
 
+/* Função Hover para o cursor mudar ao ficar sobre a imagem do cabeçalho */
 #logo:hover{
     cursor: pointer;
 }
 
+/* Classe para aumentar o Padding acima do "titulo" a fim de mante-lo alinhado no cabeçalho */
 .titulo{
     padding-top: 24px;
 }
