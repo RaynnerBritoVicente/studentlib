@@ -26,5 +26,5 @@ function salvarLivro(){
     //Método Push adiciona no fim do Array
     livros.push(livro)
     //salva a lista atualizada no localStorage
-    localStorage.setItem('clientes', JSON.stringify(livros))
+    localStorage.setItem('livros', JSON.stringify(livros))
 }
