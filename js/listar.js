@@ -19,9 +19,9 @@ function listarLivros(){
                                 <th>Editora</th>
                                 <th>Unidades</th>
                                 <th>Generos</th>
-                                <th>Vendendo</th>
-                                <th>Indisponível</th>
+                                <th>Status</th>
                                 <th>Sinópse</th>
+                                <th>Data de inclusão</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,10 +38,10 @@ function listarLivros(){
                         <td>${livro.autor}</td>
                         <td>${livro.editora}</td>
                         <td>${livro.unidades}</td>
-                        <td>${livro.aventura}, ${livro.suspense}, ${livro.terror}, ${livro.biografia}, ${livro.romance}, ${livro.fantasia}</td>
-                        <td>${livro.vendendo}</td>
-                        <td>${livro.indisponivel}</td>
+                        <td>${livro.aventura} ${livro.suspense} ${livro.terror} ${livro.biografia} ${livro.romance} ${livro.fantasia}</td>
+                        <td>${livro.statusLivro}</td>
                         <td>${livro.sinopse}</td>
+                        <td>${livro.data}</td>
                         `
     }
 

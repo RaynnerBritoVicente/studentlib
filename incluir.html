@@ -29,42 +29,42 @@
                         <form class="justify-content-around "> <!-- Inicio do formulário -->
 
                             <div class="form-floating mb-3"> <!-- Obtendo o título -->
-                                <input type="text" id="titulo" class="form-control">
+                                <input type="text" id="titulo" class="form-control" required autofocus>
                                 <label for="titulo">Título:</label>
                             </div>
             
                             <div class="form-floating mb-3"> <!-- Obtendo o autor -->
-                                <input type="text" id="autor" class="form-control">
+                                <input type="text" id="autor" class="form-control" required>
                                 <label for="autor">Autor:</label>
                             </div>
 
                             <div class="form-floating mb-3"> <!-- Obtendo a editora -->
-                                <input type="text" id="editora" class="form-control ">
+                                <input type="text" id="editora" class="form-control " required>
                                 <label for="editora">Editora:</label>
                             </div>
 
                             <div class="form-floating mb-3"> <!-- Obtendo quantas unidades -->
-                                <input type="number" id="unidades" class="form-control ">
+                                <input type="number" id="unidades" class="form-control " required>
                                 <label for="unidades">Unidades:</label>
                             </div>
 
                             <label for="genero" class="text-start mt-2">Genero:</label> <!-- Obtendo os generos do livro -->
-                            <input type="checkbox" id="aventura" class="form-check-input me-2">Aventura</input>
-                            <input type="checkbox" id="suspense" class="form-check-input me-2"">Suspense</input>
-                            <input type="checkbox" id="terror" class="form-check-input me-2"">Terror</input>
-                            <input type="checkbox" id="biografia" class="form-check-input me-2"">Biografia</input>
-                            <input type="checkbox" id="romance" class="form-check-input me-2"">Romance</input>
-                            <input type="checkbox" id="fantasia" class="form-check-input me-2"">Fantasia</input>
+                            <input type="checkbox" value="Aventura" id="aventura" class="form-check-input me-2">Aventura</input>
+                            <input type="checkbox" value="Suspense" id="suspense" class="form-check-input me-2">Suspense</input>
+                            <input type="checkbox" value="Terror" id="terror" class="form-check-input me-2">Terror</input>
+                            <input type="checkbox" value="Biografia" id="biografia" class="form-check-input me-2">Biografia</input>
+                            <input type="checkbox" value="Romance" id="romance" class="form-check-input me-2">Romance</input>
+                            <input type="checkbox" value="Fantasia" id="fantasia" class="form-check-input me-2">Fantasia</input>
                             
                             <label class="text-start mt-2">Disponibilidade:</label> <!-- Obtendo a disponibilidade do livro -->
                             <div class="form-check col">
-                                <input class="form-check-input" type="radio" name="vendendo" id="vendendo">
+                                <input class="form-check-input" type="radio" name="vendendo" value="vendendo" id="vendendo">
                                 <label class="form-check-label text-start mt-2" for="vendendo">
                                   Vendendo
                                 </label>
                             </div>
                             <div class="form-check col">
-                                <input class="form-check-input" type="radio" name="indisponivel" id="indisponivel">
+                                <input class="form-check-input" type="radio" name="indisponivel" value="indisponivel" id="indisponivel">
                                 <label class="form-check-label text-start mt-2" for="vendendo">
                                   Indisponível
                                 </label>
@@ -74,7 +74,7 @@
                             <textarea name="sinopse" class="form-control " id="sinopse" cols="30" rows="10"></textarea>
 
                             <div class="form-floating mb-3 mt-3"> <!-- Obtendo a data de inclusão -->
-                                <input type="date" class="form-control " name="data" id="data">
+                                <input type="date" class="form-control " name="data" id="data" required>
                                 <label for="data">Data de inclusão</label>
                             </div>
 
